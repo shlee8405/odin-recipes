@@ -1,8 +1,105 @@
 *{
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #image {
     width: 100px;
-    height: auto
+    height: auto;
+}
+
+
+main{
+    font-family: 'Poppins', sans-serif;
+    min-height:100vh;
+    background: linear-gradient(to right bottom, #191919, #252525);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.glass {
+
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(218,165,32,0.4), rgba(255,215,0,0.2));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.recipe {
+    display: float;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gif {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+
+}
+
+h1 {
+    font-weight:600;
+    font-size: 4rem;
+    opacity: 0.6;
+    color: #black;
+}
+
+.giphy {
+    padding-bottom: 2rem;
+}
+
+.chop {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.recipe{
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-style: black;
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
+}
+a:visited {
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
+}
+a:hover {
+    text-decoration: wavy;
+    color:black;
+    opacity: 0.7;
+}
+a:active {
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
 }
