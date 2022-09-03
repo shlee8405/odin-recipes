@@ -114,3 +114,61 @@ a:active {
     color:black;
     opacity: 0.7;
 }
+
+
+/*food recipes*/
+
+.foodContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; 
+    background: linear-gradient(to right bottom, rgba(218,165,32,0.1), rgba(255,215,0,0.1));
+    border-radius: 2rem;
+    min-width: 20vw;
+}
+
+.foodContentTwo {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.recipeImage {
+    width: 20rem;
+    height: 18rem;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 2rem;
+}
+
+.description {
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5vh;
+}
+
+.homeButton {
+    background-color: rgba(0,0,0,0.3); /* Blue background */
+    border: none; /* Remove borders */
+    color: rgba(0,0,0, 0.9); /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 1.5rem; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 20%;
+    font-weight: 700;
+}
+
+
+.homeButton:hover {
+    background-color: rgba(0,0,0,0.2);
+    color:rgba(0,0,0,0.5);
+}
