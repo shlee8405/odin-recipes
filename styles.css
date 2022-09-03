@@ -42,11 +42,13 @@ main{
 }
 
 .recipe {
-    display: float;
+    display: grid;
     margin: 0rem 0rem;
     padding: 0rem 0rem;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    grid-auto-flow: row;
+    justify-items: center;
 }
 
 .recipes {
@@ -58,7 +60,16 @@ main{
     width: 20rem;
     height: 15rem;
     object-fit: cover;
+}
 
+.foodImage {
+    width: 10rem;
+    height: 8rem;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.foodImage:hover {
+    opacity: 0.9;
 }
 
 h1 {
